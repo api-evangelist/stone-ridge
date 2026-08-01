@@ -1,8 +1,27 @@
 aid: stone-ridge
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stone-ridge.png
 name: Stone Ridge
-description: 'Stone Ridge is a company surfaced as a portfolio company of ribbit-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Stone Ridge (Stone Ridge Asset Management) is an alternative asset manager
+  founded in 2012 that manages approximately $35 billion across "True Alternatives" —
+  investment strategies designed to be uncorrelated with traditional stocks and bonds —
+  including reinsurance, energy, alternative lending, single-family rentals, opportunistic
+  credit, art, LifeX longevity income, and bitcoin. It is the parent of the digital-asset
+  firm NYDIG and is backed by Ribbit Capital. Stone Ridge serves institutional investors,
+  wealth professionals, and insurance companies and operates a private, authenticated
+  investor/client portal (connect.stoneridgeam.com) rather than a public developer API.
+  As of this enrichment pass no public API, SDK, OpenAPI, or developer documentation
+  surface was found for the firm.'
 url: https://raw.githubusercontent.com/api-evangelist/stone-ridge/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +31,34 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Fintech
+- Asset Management
+- Alternative Investments
+- Investment Management
+- Reinsurance
+- Digital Assets
 apis: []
+common:
+- type: Website
+  url: https://www.stoneridgeam.com
+- type: About
+  url: https://www.stoneridgeam.com/our-firm
+- type: Blog
+  url: https://www.stoneridgeam.com/insights-education
+- type: Support
+  url: https://www.stoneridgeam.com/contact
+- type: Login
+  url: https://connect.stoneridgeam.com/login
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
